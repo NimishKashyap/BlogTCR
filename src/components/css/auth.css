@@ -1,0 +1,30 @@
+.login {
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #17141d;
+    color: rgb(173, 173, 173);
+    padding: 50px;
+    padding-right: 30px;
+    box-shadow: 0 5px 3rem #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    /* color: rgb(0, 148, 216); */
+}
+.login__fields {
+    outline: none;
+    margin: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+.login__dont {
+    color: white;
+}

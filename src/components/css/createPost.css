@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+.create__post {
+    font-family: inherit;
+    border-radius: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(
+        to bottom left,
+        rgba(255, 255, 255, 0.336),
+        #261544a1
+    );
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    /* border-left: 1px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: -5px 5px 15px 2px rgba(159, 158, 184, 0.302),
+        5px -5px 10px #0000004f;
+
+    margin-bottom: 100px;
+}
+.form__text {
+    min-width: 1024px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    outline: none;
+    border-radius: 20px;
+    background-color: inherit;
+    color: white;
+
+    box-shadow: inset -5px 5px 15px rgba(255, 255, 255, 0.227),
+        inset 5px -5px 10px rgba(0, 0, 0, 0.57);
+}
+::placeholder {
+    color: white;
+    font-family: "Poppinns", sans-serif;
+    letter-spacing: 5px;
+}
+#file__choose {
+    size: 60px;
+    margin-left: 20px;
+    /* display: none; */
+}
+.choose__file {
+    display: inline-block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1024px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: #17141da4;
+    box-shadow: -5px 5px 8px rgba(255, 255, 255, 0.281),
+        5px -5px 10px rgba(0, 0, 0, 0.75);
+    transition: 500ms;
+}
+.choose__file:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    box-shadow: -5px 5px 15px rgba(255, 255, 255, 0.281),
+        5px -5px 20px rgba(0, 0, 0, 0.75);
+    transition: 500ms;
+}
+.choose__file:active {
+    background-color: black;
+}
+.editor {
+    min-width: 1024px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit__button {
+    margin: 20px;
+    min-width: 1024px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    border: none;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #17141da4;
+    box-shadow: -5px 5px 8px rgba(255, 255, 255, 0.281),
+        5px -5px 10px rgba(0, 0, 0, 0.75);
+    transition: 500ms;
+}
+.submit__button:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    box-shadow: -5px 5px 15px rgba(255, 255, 255, 0.281),
+        5px -5px 20px rgba(0, 0, 0, 0.75);
+    transition: 500ms;
+}
+.submit__button:active {
+    background-color: black;
+}
